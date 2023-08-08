@@ -19,7 +19,7 @@ server.listen(puerto, () => {
 });
 
 
-
+//generamos el token 
 server.post('/login', (req, res) => {
   const {username, password } = req.body;
   //const username = "kfc";
